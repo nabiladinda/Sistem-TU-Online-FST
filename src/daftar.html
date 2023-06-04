@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>daftar</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+  </head>
+  <body class="h-full font-Poppins bg-surface">
+    <nav class="flex justify-between bg=bg-white px-32 items-center w-full">
+      <!--NAVBAR-->
+      <div>
+        <img src="asset/Logo (1) 2.png" alt="logo" class="w-[200px]" />
+      </div>
+      <div>
+        <ul class="flex gap-10">
+          <a href="beranda.html">
+            <li class="cursor-pointer">Beranda</li>
+          </a>
+          <a href="pengajuan.html">
+            <li class="cursor-pointer">Status Pengajuan</li>
+          </a>
+          <a href="masuk.html">
+            <li class="cursor-pointer">Masuk</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <section class="h-screen">
+      <div
+        class="border-[0.5px] px-[40px] mb-52 shadow-[0px_7px_7px_0px_#1E1E1E26] flex gap-[80px] flex-col py-[60px] w-fit rounded-[28px]  mx-auto"
+      >
+        <div class="justify-center">
+          <h1 class="font-medium text-[30px] font-sans text-center">
+            Selamat Datang di TU Online FST!
+          </h1>
+          <h3 class="font-light text-[28px] text-center">Daftar Akun</h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <form class="w-[424px] flex flex-col gap-[20px] mb-[60px]">
+            <label class=" flex flex-col gap-[10px]">
+              <span class="block text-sm font-medium text-slate-700">Nama</span>
+              <!-- Using form state modifiers, the classes can be identical for every input -->
+              <input
+                type="text"
+                placeholder="masukkan nama"
+                value=""
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+            </label>
+            <label class=" flex flex-col gap-[10px]">
+              <span class="block text-sm font-medium text-slate-700">NIM</span>
+              <!-- Using form state modifiers, the classes can be identical for every input -->
+              <input
+                type="text"
+                placeholder="masukkan nim"
+                value=""
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+            </label>
+            <label class=" flex flex-col gap-[10px]">
+              <span class="block text-sm font-medium text-slate-700"
+                >Email</span
+              >
+              <!-- Using form state modifiers, the classes can be identical for every input -->
+              <input
+                type="text"
+                placeholder="masukkan email"
+                value=""
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+            </label>
+            <label class=" flex flex-col gap-[10px]">
+              <span class="block text-sm font-medium text-slate-700"
+                >Password</span
+              >
+              <!-- Using form state modifiers, the classes can be identical for every input -->
+              <input
+                type="password"
+                placeholder="masukkan password"
+                value=""
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+            </label>
+          </form>
+          <a
+          href="masuk.html"
+            class="px-[80px] mb-5 pt-[15px] pb-[17px] bg-[#38B6FF] h-[52px] w-[225px] text-white rounded-[18px]"
+          >
+            Daftar
+          </a>
+          <p class="font-extralight font-Poppins ">
+            Sudah Punya Akun?
+            <a href="masuk.html" class="cursor-pointer font-Poppins font-bold">Masuk!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="fixed bottom-0 left-0 right-0 px-[40px] justify-between items-center w-full bg-[#38B6FF] flex gap-[65px]"
+    >
+      <div>
+        <p class="font-extralight text-white">
+          Copyright © Tata Usaha Online FST 2023
+        </p>
+      </div>
+      <div><img src="asset/Logo (4).png" alt="" /></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Pengajuan</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+</head>
+<body class="font-Poppins bg-surface">
+    <nav class="flex justify-between bg-whit px-32 items-center w-full">
+        <!--NAVBAR-->
+        <div>
+          <img src="asset/Logo (1) 2.png" alt="logo" class="w-[200px]" />
+        </div>
+        <div>
+          <ul class="flex gap-10 items-center">
+            <a href="beranda.html">
+              <li class="cursor-pointer ">Beranda</li>
+            </a>
+            <a href="statuspengajuan.html">
+              <li class="cursor-pointer text-[#38B6FF]">Status Pengajuan</li>
+            </a>
+            <a href="profil.html" class="flex items-center gap-[23px]">
+              <li class="cursor-pointer">Hi, Nabila </li>
+              <img src="asset/profilenav.png" class="w-[47px] h-[47px] rounded-full" alt="">
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section class="flex flex-col gap-[45px] w-[80%] mx-[64px] my-[70px] ">
+            <section class="header">
+                <h1 class="text-[40px] font-bold">Edit Pengajuan</h1>
+                <p class="text-[20px]">Silahkan laukan pengeditan pada formulir pengajuan</p>
+            </section>
+            <div class="card mx-[30px] flex gap-[20px] flex-col">
+                <div>
+                    <h1>Dokumen Apa Yang dibutuhkan?</h1>
+                    <label class="p-[10px] rounded-lg  border border-[#BDBDBD] flex justify-between">
+                        <input type="text" value="Surat Permohonan Konversi" class="outline-none"></input>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+                          </svg>                          
+                    </label>
+                </div>
+                <div>
+                    <h1>Kapan Kamu Membutuhkan Dokumen tersebut?</h1>
+                    <label class="p-[10px] rounded-lg  border border-[#BDBDBD] flex justify-between">
+                        <input type="text" value="30 Januari 2023" class="outline-none"></input>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+                          </svg>                          
+                    </label>
+                </div>
+                <div>
+                    <h1>Catatan untuk dokumen yang dibutuhkan:</h1>
+                    <label class="p-[10px] rounded-lg  border border-[#BDBDBD] flex justify-between">
+                        <input type="text" value="Tidak ada" class="outline-none"></input>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+                          </svg>                          
+                    </label>
+                </div>
+                <div class="py-[49px] px-[60px] items-center justify-center w-[317px] h-[49px] flex gap-[5px] rounded-[14px] border border-[#BDBDBD]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#BDBDBD" viewBox="0 0 24 24" stroke-width="1.5" stroke="#BDBDBD" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                      </svg>
+                    <p class="text-[#BDBDBD]">tambah dokumen</p>
+                </div>
+                <h1>*format yang dapat diterima adalah pdf/jpg/png/doc</h1>
+               <a href="statuspengajuan.html" class="self-end">
+                    <button class="text-white rounded-[14px] w-fit  bg-blueMain px-[15px] py-[10px]">
+                        Simpan
+                    </button>
+               </a>
+            </div>
+      </section>
+      <footer
+      class="fixed bottom-0 px-[40px] left-0 right-0 justify-between items-center w-full bg-[#38B6FF] flex gap-[65px]">
+      <div>
+        <p class="font-extralight text-white">
+          Copyright © Tata Usaha Online FST 2023
+        </p>
+      </div>
+      <div><img src="asset/Logo (4).png" alt="" /></div>
+    </footer>
+</body>
+</html>

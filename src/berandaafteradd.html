@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beranda</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="h-full bg-surface font-Poppins">
+  <nav class="flex justify-between bg-white px-32 items-center w-full">
+    <!--NAVBAR-->
+    <div>
+      <img src="asset/Logo (1) 2.png" alt="logo" class="w-[200px]" />
+    </div>
+    <div>
+      <ul class="flex gap-10 items-center">
+        <a href="beranda.html">
+          <li class="cursor-pointer text-[#38B6FF]">Beranda</li>
+        </a>
+        <a href="statuspengajuan.html">
+          <li class="cursor-pointer">Status Pengajuan</li>
+        </a>
+        <a href="profil.html" class="flex items-center gap-[23px]">
+          <li class="cursor-pointer">Hi, Nabila </li>
+          <img src="asset/profilenav.png" class="w-[47px] h-[47px] rounded-full" alt="">
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <div class="mx-auto  w-full my-[75px] flex flex-col gap-[54px]  justify-center">
+    <div class="flex gap-[60px] w-[90%]  items-center mx-auto">
+      <h1 class="text-[40px] w-[30%]">Selamat Datang</h1>
+      <label for="search" class="flex items-center gap-[15px] bg-white rounded-[14px] w-[70%] border-[0.5px] h-[48px] border-[#38B6FF] p-[10px_150px_10px_10px]">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>        
+        <input type="text" name="search" placeholder="cari sesuatu disini..." id="search" class="outline-none  w-full">
+      </label>
+    </div>
+    <div class="flex flex-col w-[90%] mx-auto">
+        <div class="text-white p-[20px] rounded-t-[14px] bg-blueMain">
+          Daftar Pengajuan
+        </div>
+        <div class="flex flex-col px-[40px] py-[25px] gap-[20px]">
+            <div class="flex justify-between items-center border-b pb-[20px] border-[#828282]">
+              <div class="flex gap-[15px] items-center">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M37.6189 19.2507H25.3142C24.1953 19.2507 23.1223 18.8161 22.3311 18.0425C21.5399 17.269 21.0955 16.2198 21.0955 15.1257V3.09448C21.0955 3.00331 21.0584 2.91588 20.9925 2.85141C20.9266 2.78695 20.8371 2.75073 20.7439 2.75073H12.658C11.1661 2.75073 9.73538 3.3302 8.68048 4.36165C7.62559 5.3931 7.03296 6.79204 7.03296 8.25073V35.7507C7.03296 37.2094 7.62559 38.6084 8.68048 39.6398C9.73538 40.6713 11.1661 41.2507 12.658 41.2507H32.3455C33.8373 41.2507 35.2681 40.6713 36.3229 39.6398C37.3778 38.6084 37.9705 37.2094 37.9705 35.7507V19.5945C37.9705 19.5033 37.9334 19.4159 37.8675 19.3514C37.8016 19.2869 37.7121 19.2507 37.6189 19.2507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                  <path d="M36.8463 16.208L24.205 3.8476C24.1804 3.8237 24.1491 3.80744 24.1151 3.80087C24.0811 3.7943 24.0459 3.7977 24.0138 3.81065C23.9818 3.8236 23.9544 3.84552 23.9351 3.87366C23.9157 3.9018 23.9054 3.93489 23.9052 3.96879V15.1259C23.9052 15.4907 24.0534 15.8404 24.3172 16.0983C24.5809 16.3562 24.9386 16.5011 25.3117 16.5011H36.7224C36.757 16.501 36.7909 16.4908 36.8197 16.4719C36.8484 16.453 36.8709 16.4262 36.8841 16.3949C36.8973 16.3636 36.9008 16.3291 36.8941 16.2959C36.8874 16.2626 36.8708 16.2321 36.8463 16.208Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                </svg>      
+                <div class="flex flex-col gap-2">
+                  <h1>Surat Rekomendasi Wakil Dekan</h1>
+                  <p>1 lembar</p>
+                </div>
+              </div>
+              <button class="bg-[#EB5757] py-[8px] px-[15px] rounded-[14px] text-white">Dibatalkan</button>
+            </div>
+            <div class="flex justify-between items-center border-b pb-[20px] border-[#828282]">
+              <div class="flex gap-[15px] items-center">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M37.6189 19.2507H25.3142C24.1953 19.2507 23.1223 18.8161 22.3311 18.0425C21.5399 17.269 21.0955 16.2198 21.0955 15.1257V3.09448C21.0955 3.00331 21.0584 2.91588 20.9925 2.85141C20.9266 2.78695 20.8371 2.75073 20.7439 2.75073H12.658C11.1661 2.75073 9.73538 3.3302 8.68048 4.36165C7.62559 5.3931 7.03296 6.79204 7.03296 8.25073V35.7507C7.03296 37.2094 7.62559 38.6084 8.68048 39.6398C9.73538 40.6713 11.1661 41.2507 12.658 41.2507H32.3455C33.8373 41.2507 35.2681 40.6713 36.3229 39.6398C37.3778 38.6084 37.9705 37.2094 37.9705 35.7507V19.5945C37.9705 19.5033 37.9334 19.4159 37.8675 19.3514C37.8016 19.2869 37.7121 19.2507 37.6189 19.2507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                  <path d="M36.8463 16.208L24.205 3.8476C24.1804 3.8237 24.1491 3.80744 24.1151 3.80087C24.0811 3.7943 24.0459 3.7977 24.0138 3.81065C23.9818 3.8236 23.9544 3.84552 23.9351 3.87366C23.9157 3.9018 23.9054 3.93489 23.9052 3.96879V15.1259C23.9052 15.4907 24.0534 15.8404 24.3172 16.0983C24.5809 16.3562 24.9386 16.5011 25.3117 16.5011H36.7224C36.757 16.501 36.7909 16.4908 36.8197 16.4719C36.8484 16.453 36.8709 16.4262 36.8841 16.3949C36.8973 16.3636 36.9008 16.3291 36.8941 16.2959C36.8874 16.2626 36.8708 16.2321 36.8463 16.208Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                </svg>      
+                <div class="flex flex-col gap-2">
+                  <h1>Surat Rekomendasi Kaprodi Sistem Informasi</h1>
+                  <p>1 lembar</p>
+                </div>
+              </div>
+              <button class="bg-[#828282] py-[8px] px-[15px] rounded-[14px] text-white">Diajukan</button>
+            </div>
+            <div class="flex justify-between items-center  pb-[20px] border-[#828282]">
+              <div class="flex gap-[15px] items-center">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M37.6189 19.2507H25.3142C24.1953 19.2507 23.1223 18.8161 22.3311 18.0425C21.5399 17.269 21.0955 16.2198 21.0955 15.1257V3.09448C21.0955 3.00331 21.0584 2.91588 20.9925 2.85141C20.9266 2.78695 20.8371 2.75073 20.7439 2.75073H12.658C11.1661 2.75073 9.73538 3.3302 8.68048 4.36165C7.62559 5.3931 7.03296 6.79204 7.03296 8.25073V35.7507C7.03296 37.2094 7.62559 38.6084 8.68048 39.6398C9.73538 40.6713 11.1661 41.2507 12.658 41.2507H32.3455C33.8373 41.2507 35.2681 40.6713 36.3229 39.6398C37.3778 38.6084 37.9705 37.2094 37.9705 35.7507V19.5945C37.9705 19.5033 37.9334 19.4159 37.8675 19.3514C37.8016 19.2869 37.7121 19.2507 37.6189 19.2507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                  <path d="M36.8463 16.208L24.205 3.8476C24.1804 3.8237 24.1491 3.80744 24.1151 3.80087C24.0811 3.7943 24.0459 3.7977 24.0138 3.81065C23.9818 3.8236 23.9544 3.84552 23.9351 3.87366C23.9157 3.9018 23.9054 3.93489 23.9052 3.96879V15.1259C23.9052 15.4907 24.0534 15.8404 24.3172 16.0983C24.5809 16.3562 24.9386 16.5011 25.3117 16.5011H36.7224C36.757 16.501 36.7909 16.4908 36.8197 16.4719C36.8484 16.453 36.8709 16.4262 36.8841 16.3949C36.8973 16.3636 36.9008 16.3291 36.8941 16.2959C36.8874 16.2626 36.8708 16.2321 36.8463 16.208Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                </svg>      
+                <div class="flex flex-col gap-2">
+                  <h1>Transkrip Nilai Bertanda Tangan Wakil Dekan</h1>
+                  <p>4 lembar</p>
+                </div>
+              </div>
+              <button class="bg-[#219653] py-[8px] px-[15px] rounded-[14px] text-white">diterima</button>
+            </div>
+            <div class="flex justify-between items-center  pb-[20px] border-[#828282]">
+              <div class="flex gap-[15px] items-center">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M37.6189 19.2507H25.3142C24.1953 19.2507 23.1223 18.8161 22.3311 18.0425C21.5399 17.269 21.0955 16.2198 21.0955 15.1257V3.09448C21.0955 3.00331 21.0584 2.91588 20.9925 2.85141C20.9266 2.78695 20.8371 2.75073 20.7439 2.75073H12.658C11.1661 2.75073 9.73538 3.3302 8.68048 4.36165C7.62559 5.3931 7.03296 6.79204 7.03296 8.25073V35.7507C7.03296 37.2094 7.62559 38.6084 8.68048 39.6398C9.73538 40.6713 11.1661 41.2507 12.658 41.2507H32.3455C33.8373 41.2507 35.2681 40.6713 36.3229 39.6398C37.3778 38.6084 37.9705 37.2094 37.9705 35.7507V19.5945C37.9705 19.5033 37.9334 19.4159 37.8675 19.3514C37.8016 19.2869 37.7121 19.2507 37.6189 19.2507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                  <path d="M36.8463 16.208L24.205 3.8476C24.1804 3.8237 24.1491 3.80744 24.1151 3.80087C24.0811 3.7943 24.0459 3.7977 24.0138 3.81065C23.9818 3.8236 23.9544 3.84552 23.9351 3.87366C23.9157 3.9018 23.9054 3.93489 23.9052 3.96879V15.1259C23.9052 15.4907 24.0534 15.8404 24.3172 16.0983C24.5809 16.3562 24.9386 16.5011 25.3117 16.5011H36.7224C36.757 16.501 36.7909 16.4908 36.8197 16.4719C36.8484 16.453 36.8709 16.4262 36.8841 16.3949C36.8973 16.3636 36.9008 16.3291 36.8941 16.2959C36.8874 16.2626 36.8708 16.2321 36.8463 16.208Z" fill="#1E1E1E" fill-opacity="0.96"/>
+                </svg>      
+                <div class="flex flex-col gap-2">
+                  <h1>Surat Permohonan Konversi</h1>
+                  <p>4 lembar</p>
+                </div>
+              </div>
+              <button class="bg-[#828282] py-[8px] px-[15px] rounded-[14px] text-white">Diajukan</button>
+            </div>
+        </div>
+    </div>
+   <section class="w-[90%] cursor-pointer mx-auto justify-end flex">
+    <a href="buatpengajuan.html" class="py-[10px] rounded-[14px] -mt-[24px] self-end  justify-center flex px-[12px] gap-2 bg-blueMain text-white w-[216px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+      </svg>
+      
+      Buat Pengajuan
+    </a>
+   </section>
+  </div>
+</body>
+<footer class="fixed bottom-0 left-0 right-0 justify-between items-center w-full bg-[#38B6FF] flex gap-[65px]">
+  <div>
+      <p class="font-extralight text-white">Copyright © Tata Usaha Online FST 2023</p>
+  </div>
+  <div><img src="asset/Logo (4).png" alt=""></div>
+</footer>
+</html>
